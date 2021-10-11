@@ -1,0 +1,713 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1134026677930024960/OTXBr2js_400x400.jpg" type="image/x-icon">
+<title>E-resume Roshini Kini</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: antiquewhite;
+      font-family: 'Josefin Sans', sans-serif;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .leftwala {
+      width: 19%;
+      padding: 0.5em;
+      float: left;
+      height: 70em;
+
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+    }
+
+    .rightwala {
+      width: 19%;
+      padding: 0.5em;
+      float: right;
+      height: 70em;
+
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+    }
+
+    .all-browsers {
+      margin: 0;
+      padding: 5px;
+      background-color: lightgray;
+      margin-left: 13.2em;
+
+    }
+
+    .all-browsers>h1,
+    .browser {
+      margin: 10px;
+      padding: 5px;
+    }
+
+    .browser {
+      background: white;
+    }
+
+    .browser>h2,
+    p {
+      margin: 4px;
+      font-size: 90%;
+    }
+
+    .container {
+      position: relative;
+      width: 50%;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+    }
+
+    .container:hover .image {
+      opacity: 0.5;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      background-color: #0e0779;
+      color: white;
+      font-size: 10px;
+      padding: 6px 10px;
+
+    }
+
+    table,
+    th,
+    td {
+
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+    }
+
+    .socials:hover {
+
+      transition-duration: 0.8s;
+      color: rgb(255, 255, 255);
+      transform: rotate(360deg);
+      transition-timing-function: ease-out;
+      text-shadow: 2px 2px 2px rgb(129, 55, 55)
+    }
+
+    .social:hover {
+
+      transition-duration: 0.8s;
+      color: antiquewhite;
+      text-shadow: 2px 2px 2px rgb(3, 2, 92);
+      transition-timing-function: ease-out;
+
+    }
+
+    .follow:hover {
+
+      transition-duration: 1s;
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px rgb(3, 2, 92);
+    }
+
+    .about {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about:hover {
+      background-color: gold;
+      transition-duration: 1s;
+      border-radius: 0px 10px 10px 10px;
+    }
+
+    .skills {
+
+      position: relative;
+      overflow: hidden;
+    }
+
+    .skills:hover {
+      transition-duration: 1s;
+      border-radius: 0px 10px 10px 10px;
+      box-shadow: 2px 2px 2px rgb(119, 1, 109);
+      text-shadow: 2px 2px 2px linear-gradient(red, yellow);
+      color: linear-gradient(red, yellow);
+    }
+
+    .heylo:hover {
+      transition-duration: 1s;
+      border-radius: 0px 10px 10px 10px;
+      box-shadow: 2px 2px 2px rgb(129, 55, 55);
+    }
+
+    .pic:hover {
+      transition-duration: 1s;
+      border-radius: 0px 10px 10px 10px;
+      box-shadow: 2px 2px 2px rgb(1, 80, 36);
+    }
+    .about:hover {
+      transition-duration: 1s;
+      border-radius: 0px 10px 10px 10px;
+      box-shadow: 2px 2px 2px goldenrod;
+      text-shadow: 2px 2px 2px linear-gradient(red, yellow);
+      color: linear-gradient(red, yellow);
+    }
+    .naam:hover {
+      text-decoration: underline;
+      text-orientation: sideways;
+      transition-duration: 1s;
+text-shadow: 2px 3px 2px rgb(45, 46, 46);
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    .skill:hover {
+      transition-duration: 1s;
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px rgb(3, 2, 92);
+      text-decoration: solid;
+      font-weight: bolder;
+    }
+    .piccc{
+      box-shadow: 2px 2px 2px black; border-radius: 10px 10px 10px 0px;
+    }
+    .piccc:hover{
+      transform: scale3d(1.1,1.1,5);
+      transition-duration: 1s;
+      border-radius: 50%;
+      box-shadow: -2px 2px 2px rgb(0, 0, 0);
+  
+    }
+    .bg{
+      color: rgb(73, 73, 73);
+    }
+    .bg:hover{
+     transform: scale3d(1.03, 1.03, 1.03);
+      color: rgb(0, 0, 0);
+      transition-duration: 1s;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/880f0920dc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <ul>
+    <li><a href="https://www.educations.com/articles-and-advice/the-importance-of-language-learning-14459"><i class="fas fa-language"></i> &nbsp; English, Hindi, Konkani, Marathi, Kannada</a></li>
+    <li><a href="https://www.columbia.ab.ca/the-importance-of-having-a-hobby/" style="margin-left: 55px;"><i class="far fa-smile-beam"></i> &nbsp; Badminton, Designing,
+        Eating, Singing</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Personality_type" style="margin-left: 75px;"><i class="fas fa-user-check"></i>&nbsp;Dreamer, Explorer, Leader,
+        Easy Going, Funny</a></li>
+
+  </ul>
+
+  <aside class="leftwala">
+    <div class="pic" style="background-color:rgb(120, 179, 115);border-radius: 10px 10px 10px 0px; ">
+      <table style="border: none;">
+
+        <tr>
+
+          <td><img align="right" class="piccc" src="https://pbs.twimg.com/profile_images/1134026677930024960/OTXBr2js_400x400.jpg"
+              height="120px" width="120px" >
+          </td>
+          <td>This is me!:)</td>
+
+        </tr>
+      </table>
+    </div>
+
+    <b>
+      <p style="font-size: large; background-color: gold; border-radius: 10px 10px 10px 0px; padding-left: 10px;">About
+        Me</p>
+    </b>
+    <div class="about" style="background-color: gold; border-radius: 10px 10px 10px 0px;" onclick="home()">
+      <p style="padding-left: 10px;">Hi, I'm Roshini! I am ambitious and driven. I have started discovering about myself
+        recently, and I
+        am stunned. I am a person who is positive about every aspect of life. </p><br>
+    </div>
+    <b>
+      <p style="font-size: large; background-color:lightcoral; border-radius: 10px 10px 10px 0px;padding-left: 10px;">
+        Contact Me</p>
+    </b>
+
+    <div class="heylo" style="background-color:lightcoral;border-radius: 10px 10px 10px 0px; ">
+      <table style="border: none;">
+
+        <tr>
+          <td>
+            <div class="socials"><i class="fas fa-envelope-square" style="font-size:25px;"></i></div>
+          </td>
+          <td><a href="mailto:roshnikini30901@gmail.com" target="_blank">mail me</a></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="socials"> <i class="fab fa-linkedin" style="font-size:25px;"></i></div>
+          </td>
+          <td><a href="www.linkedin.com/in/roshinikini30901">Roshini Kini</a></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="socials"><i class="fas fa-phone-alt" style="font-size:25px;"></i> </div>
+          </td>
+          <td><a href="tel:+91 8879541974">8879541974 </a></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="socials"><i class="fas fa-map-marker-alt" style="font-size:25px;"></i></div>
+          </td>
+          <td>Mumbai, Maharashtra</td>
+
+        </tr>
+      </table><br>
+    </div>
+
+    <b>
+      <p
+        style="font-size: large; background-color: rgb(7, 168, 168); border-radius: 10px 10px 10px 0px;padding-left: 10px;">
+        Follow Me</p>
+    </b>
+    <div class="follow" style=" background-color: rgb(7, 168, 168);border-radius: 10px 10px 10px 0px;">
+      <table style="border: black;">
+
+
+        <tr>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-instagram-square" style="font-size:45px;"></i></div>
+            </a></td>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-facebook-square " style="font-size:45px;"></i></div>
+            </a></td>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-youtube-square " style="font-size:45px;"></i></div>
+            </a></td>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-tumblr-square" style="font-size:45px;"></i></div>
+            </a></td>
+        </tr>
+        <tr>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-twitter-square " style="font-size:45px;"></i> </div>
+            </a></td>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-pinterest-square " style="font-size:45px;"></i></div>
+            </a></td>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-dribbble-square" style="font-size:45px;"></i></div>
+            </a></td>
+          <td> <a href="#" target="_blank">
+              <div class="social"><i class="fab fa-snapchat-square" style="font-size:45px;"></i></div>
+            </a></td>
+        </tr>
+
+      </table>
+
+    </div>
+  </aside>
+
+  <aside class="rightwala">
+
+
+    <b>
+      <p
+        style="font-size: large; background-color: rgb(237, 137, 250); border-radius: 10px 10px 10px 0px; padding-left: 10px;">
+        Skills</p>
+    </b>
+    <div class="skills"
+      style="background-color:rgb(237, 137, 250); border-radius: 10px 10px 10px 0px;padding-left: 10px;">
+      <table style="border: none;">
+
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">HTML</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.9">90%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">CSS</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.9">90%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">JAVASCRIPT</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.8">90%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">MS-OFFICE</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.8">90%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">DATA ANALYTICS</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.6">60%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">PHP</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.8">60%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">BOOTSTRAP</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="1">60%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">MYSQL</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.8">60%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">SMM</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.8">60%</meter></td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="skill"><label for="disk_d">ANDROID</label></div>
+
+          </td>
+          <td><meter id="disk_d" value="0.4">60%</meter></td>
+
+        </tr>
+      </table>
+
+    </div>
+
+    <b>
+      <p
+        style="font-size: large; background-color:rgb(209, 222, 250); border-radius: 10px 10px 10px 0px;padding-left: 10px;">
+        Projects</p>
+    </b>
+    <div class="about" style="background-color: rgb(209, 222, 250); border-radius: 10px 10px 10px 0px;">
+      <form>
+        <label for="fname" style="padding-left: 10px; padding-top: 10px;">Year of Project(1/2/3):</label>
+        <input type="number" id="fname"  style="border: medium rgb(29, 27, 197); width: 40px;
+        border-radius: 4px;"><br>
+        
+        <input type="button" value="Search" style=" font-family: 'Josefin Sans', sans-serif; border-radius: 2px;text-align: center; margin-left: 80px;" onclick="afterwards()">
+
+        <p style="padding-left: 10px;" id="bhai"></p><br>
+    </div>
+
+
+    </form>
+    <script>
+      function afterwards() {
+        var c = document.getElementById("fname").value;
+        var x = document.getElementById("bhai");
+        if (c == 2) {
+          x.innerHTML = "<mark style='background-color: rgba(202, 236, 122, 0.5);'>1>Website for Travel and tour management </mark><br> <a href='https://kiniroshini.github.io/travelfreaks.github.io/'>Click here to view the project</a><br> &nbsp; Mar 2021 - May 2021    <br><br>  <mark style='background-color: rgba(202, 236, 122, 0.5);'>   2>White Paper on Fighting Child Labor</mark><br> <a href='https://drive.google.com/file/d/11DvMyjtULyl8YqLm9rAto9PySMmCgB5f/view?usp=drivesdk'>Click here to view the project</a><br> &nbsp; May 2021 - May 2021 <br><br>       <mark style='background-color: rgba(202, 236, 122, 0.5);'>   3>WEBSITE FOR INFOGRAPHICS OF NEW EDUCATION SYSTEM.</mark><br> <a href='https://kiniroshini.github.io/nexplainoff.github.io/'>Click here to view the project</a><br> &nbsp; Jul 2020 - Nov 2020 <br><br>       <mark style='background-color: rgba(202, 236, 122, 0.5);'>   4>Educational Snakes and Ladders.</mark><br> <a href='https://kiniroshini.github.io/snakesnladders_funlearn/'>Click here to view the project</a><br> &nbsp; Feb 2021 - May 2021";
+        }
+      else if (c == 1) {
+          x.innerHTML = "<mark style='background-color: rgba(202, 236, 122, 0.5);'>1>Nuclear batteries and technology</mark><br> <a href='https://drive.google.com/file/d/1thmrqN-V8NCwljr1i4RnOA7AqxR4SglU/view?usp=drivesdk'>Click here to view the project</a><br> &nbsp; Feb 2020 - Feb 2020   <br><br>  <mark style='background-color: rgba(202, 236, 122, 0.5);'>   2>Electric vehicles portable chargers</mark><br> <a href='https://drive.google.com/file/d/1thHedNhA150rGh-QbvRjg1jpwixRFl4W/view?usp=drivesdk'>Click here to view the project</a><br> &nbsp; Feb 2020 - Feb 2020   <br> <br> <mark style='background-color: rgba(202, 236, 122, 0.5);'>   3>Solar Energy generation using fiber optics technology through satellite communication</mark><br> <a href='https://drive.google.com/file/d/1tROhei6Ly60sxsXFb-i-00L59CUOcxoL/view?usp=drivesdk'>Click here to view the project</a><br> &nbsp; Feb 2020 - Feb 2020"   ;
+      }
+      else if(c>2){
+        x.innerHTML = "AWWW SNAP <i class='fas fa-shapes'></i>. Project in progress..."
+      }
+      else if(c<1){
+        x.innerHTML = "HMMMM <i class='fas fa-coffee'></i>. Looks like you need some sleep...or a cuppa coffee?"
+      }
+    }
+    </script>
+    <b>
+      <p
+        style="font-size: large; background-color: rgb(255, 255, 255); border-radius: 10px 10px 10px 0px;padding-left: 10px; color: rgb(0, 0, 0);">
+        Queries?</p>
+    </b>
+    <div class="follow" id="foll" style=" background-color: rgb(255, 255, 255);border-radius: 10px 10px 10px 0px;color: rgb(0, 0, 0);">
+      <form >
+        <textarea name="message" rows="10"  style="margin-top: 30px;margin-left: 35px;   background-color: antiquewhite; opacity: 0.5; "placeholder="Drop in your complaints/suggestions/feedback here! Thank ya..."></textarea>
+        <br><br>
+        <button style="  font-family: 'Josefin Sans', sans-serif; margin-left: 90px; margin-bottom: 20px;">Done!</button>
+      </form>
+
+    </div>
+  </aside>
+
+
+  <p style="font-size: 50px;" class="naam"><mark
+      style=" background-color: rgba(202, 236, 122, 0.397);text-shadow: 2px 2px 2px aliceblue;">Roshini Ravindra Kini,
+      20</mark></p>
+
+ 
+
+  <div class="edu"
+    style="background-color: rgb(240, 236, 236, 0.7);margin-left: 250px; margin-right: 250px;border-radius: 10px 10px 10px 10px;padding-left:10px ;">
+   <table>
+     <tr>
+       <th><h3>
+
+        <div class="heading"
+          style="  background-color: rgba(202, 236, 122, 0.5); border-radius: 10px 10px 10px 0px;text-align: left;">
+          Education</div>
+      </h3></th>
+      <th><h3>
+
+        <div class="heading"
+          style="  background-color: rgba(202, 236, 122, 0.5); border-radius: 10px 10px 10px 0px;text-align: left;">
+          Certificates</div>
+      </h3></th>
+     </tr>
+     <tr>
+       <td>
+    <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;margin-top: -11px; ">
+      <h4>Bachelor of Engineering (B.E), E&TC</h4>
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Thakur College of Engineering and Technology</summary>
+        2019-2023<br>
+        9.93/10 CGPA
+      </details>
+    </div>
+  </td>
+  <td>
+    <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;margin-top: -11px; ">
+      <h4>Software</h4>
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Python, HTML, CSS,Javascript</summary>
+        Data Visualization With Python, Data Analysis With Python, Responsive Website Basics: Code With HTML, CSS, And JavaScript, Create Your First Python Program
+      </details>
+    </div>
+  </td>
+</tr>
+
+
+  <tr>
+    <td>
+    <div class="bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;">
+      <h4>Senior Secondary (XII), Science</h4>
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Samata Vidyamandir</summary>
+        2017-2019<br>
+        (MAHARASHTRA BOARD)<br>
+        77.8%
+      </details>
+    </div>
+</td>
+<td>
+  <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;margin-top: -11px; ">
+    <h4>Hardware</h4>
+    <details>
+      <summary style="font-size:13px;font-weight: bold;">Arduino, IoT</summary>
+      The Arduino Platform And C Programming, Interfacing With The Arduino
+    </details>
+  </div>
+</td>
+</tr>
+
+<tr>
+  <td>
+    <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;">
+      <h4>Secondary (X)</h4>
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Vidya Mandir Dahisar</summary>
+        2017<br>
+        (STATE BOARD BOARD) <br>
+        94.20%
+      </details>
+    </div>
+  </div>
+</td>
+
+<td>
+  <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;margin-top: -11px; ">
+    <h4>Others</h4>
+    <details>
+      <summary style="font-size:13px;font-weight: bold;">Marketing, Leadership, COVID-19, Creativity, Communication</summary>
+      COVID-19 Contact Tracing, Marketing In A Digital World, Integrated Marketing Communications: Advertising, Public Relations, Digital Marketing And More, Creative Thinking: Techniques And Tools For Success, Communication Strategies For A Virtual Age 
+    </details>
+  </div>
+</td>
+</tr>
+</table>
+</div>
+
+  <h3>
+    <div class="heading"
+      style="  background-color: rgba(202, 236, 122, 0.5); border-radius: 10px 10px 10px 0px;margin-left: 250px; margin-right: 800px; padding-left:10px">
+      Experience</div>
+  </h3>
+  <div class="edu"
+    style="background-color: rgb(240, 236, 236, 0.7);margin-left: 250px; margin-right: 250px;margin-top:-11px;border-radius: 10px 10px 10px 0px;padding-left:10px ;">
+    <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;">
+      <h4>In-house internships</h4>
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Web Development</summary>
+        <i>Thakur college of Engineering and Technology, Virtual</i><br>
+        <i>Jun 2021 - Jun 2021</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);">This is an inhouse internship, where in we are trained
+          and then evaluated based on what outcome we are able to
+          achieve. Leading the team of 4 members, to achieve the target of project making.</mark>
+      </details><br>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Social Media Marketing</summary>
+        <i>Thakur college of Engineering and Technology, Virtual, Art Of Living</i><br>
+        <i>Jan 2021 - Jan 2021</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);"> Promotion of the initiatives via social media
+          marketing.
+          Calling and promoting.
+          Team building was a key</mark>
+      </details><br>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Digital Marketing</summary>
+        <i>Thakur college of Engineering and Technology, Virtual</i><br>
+        <i>May 2020 - Jun 2020</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);"> Digital marketing included attracting people towards
+          the organization we are working for via the use of social
+          media. We made several posters, use of several meme templates to attract young generation.</mark>
+      </details><br>
+    </div>
+
+
+    <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;">
+      <h4>Out-house internships</h4>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Data Science and Business Analyst</summary>
+        <i>The Sparks Foundation, Virtual</i><br>
+        <i>Oct 2021 - Present</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);">Analyze, process, and model data then interpret the
+          results to create actionable plans for companies and other
+          organizations.</mark>
+      </details><br>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Content Writing</summary>
+        <i>Team Everest, Virtual</i><br>
+        <i>Jun 2021 - Jul 2021</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);"> To collect all the information about the ongoing
+          activities of the organization and make creative posts and
+          posters aligned to the work. Led the team of 3 who coordinated for the social media manager position.</mark>
+      </details><br>
+
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Content Writing</summary>
+        <i>Bhaktivedanta Hospital, Virtual</i><br>
+        <i>Jun 2021 - Present</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);"> Developed content in English language for the
+          students for whom the NGO is working. My major responsibility
+          was to complete the given task within the stipulated time period. I could finish the work in time with
+          quality, that is my achievement.</mark>
+      </details><br>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Website Development</summary>
+        <i>National Initiative Program, Virtual</i><br>
+        <i>Jan 2021 - Apr 2021</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);">Built websites for the internship
+          Learnt html, css, bootstrap
+          Completed 60 hours of internship.</mark>
+      </details><br>
+
+
+    </div>
+    <div class = "bg" style="background-color: rgb(216, 215, 212,0.5);margin-right: 10px;">
+      <h4>The Extension Work Team</h4>
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Manager</summary>
+
+        <i>Jun 2020 - Jul 2021</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);">Being the manager of The Extension Work Team, I had
+          several responsibilities including: solving the grievances of the leaders and the volunteers, bridging the gap
+          between the Programme officers and the volunteers, co-ordinating between the NGO and the teams members,
+          planning and executing events, interviewing the candidates,etc</mark>
+      </details><br>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Social Media Manager</summary>
+
+        <i>Jun 2020 - Jul 2021</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);"> Promotion of the events, posting about general
+          awareness, festivities, occasions, the event winners shoutout, creating beautiful videos, etc</mark>
+      </details><br>
+
+      <details>
+        <summary style="font-size:13px;font-weight: bold;">Teaching</summary>
+
+        <i>Jun 2020 - Jul 2020</i><br>
+        <mark style=" background-color: rgba(240, 237, 62, 0.1);"> Besides from being thr Manager and the Social Media
+          Manager, I was also teaching kids and taking Vidya Vikas sessions regularly. The online teaching sessions were
+          full of joy and enjoyment along with the learning. </mark>
+      </details><br>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
